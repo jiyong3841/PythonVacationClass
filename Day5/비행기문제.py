@@ -9,23 +9,23 @@
 여권을 가지 ㄴ2명이 나타나서 승객이 다 채워지면 비행기 출발 후 다음 비행기 운항 출력
 '''
 
-num1 = 0
-while num1 < 3:
-    num1 += 1
-    print(f"{num1}번째 비행기 탑승 준비!")
-    num2 = 1
+flight = 0
+while flight < 3:
+    flight += 1
+    print(f"{flight}번째 비행기 탑승 준비!")
+    passenger = 1
     count_num = 0
 
     while count_num < 2:
-        answer = input(f"{num2}번째 고객님 여권이 있나요? (yes or no)")
+        answer = input(f"{passenger}번째 고객님 여권이 있나요? (yes or no)")
 
         if answer == "yes":
-            print(f"{num2}번째 승객이 탑승했습니다.")
+            print(f"{passenger}번째 승객이 탑승했습니다.")
             count_num += 1
         else:
             print("여권이 없어요 다음 승객 기다리기...")
-        num2 += 1
+        passenger += 1
 
-    print(f"{num1}번째 비행기 출발!")
+    print(f"{flight}번째 비행기 출발!")
 
 
