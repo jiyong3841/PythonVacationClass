@@ -9,4 +9,4 @@ if num <= 0:
     print("잘못된 입력입니다.")
 else:
     for n in range(num):
-        print(f"{num}번째 안녕하세요")
+        print(f"{n+1}번째 안녕하세요")
