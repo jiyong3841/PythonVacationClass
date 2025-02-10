@@ -9,7 +9,7 @@ me = {
     "name" : "Jiyong",
     "age" :  20,
     "phone" : "010-3841-4270",
-    "class" : ["c언어", "python","java"] # 값을 리스트로두 가질 수 있다.
+    "class" : ["c언어", "python","java"] # 값을 리스트로도 가질 수 있다.
 }
 
 print(me)
